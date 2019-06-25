@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#367ec4"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGO"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="45dp"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HI,"
+            android:textColor="#ffff"
+            android:textSize="35sp"
+            android:layout_marginStart="15dp"
+            android:fontFamily="monospace"
+            />
+        <TextView
+            android:id="@+id/tampildata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#ffff"
+            android:textSize="35sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="monospace"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Login Successfull"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Welcome!!!"
+        android:textStyle="italic|bold"
+        android:textSize="35sp"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:fontFamily="monospace"
+        android:layout_marginTop="70dp"
+        />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidLatihan2_activityTime</string>
+    <string-array name="list_negara">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+    </string-array>
+    <string name="prompt_negara">Pilih Negara</string>
+</resources>
